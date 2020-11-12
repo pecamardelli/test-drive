@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": true,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":8.864975,"y":-5.46404266,},
+    {"speed":100.0,"x":4.933758,"y":-8.070114,},
+    {"speed":100.0,"x":4.34116364,"y":-24.4775238,},
+    {"speed":100.0,"x":7.4029274,"y":-26.8887138,},
+    {"speed":100.0,"x":13.989727,"y":-26.1713524,},
+    {"speed":100.0,"x":19.867775,"y":-27.0235786,},
+    {"speed":100.0,"x":21.1676331,"y":-24.8671951,},
+    {"speed":100.0,"x":21.31971,"y":-11.8456726,},
+    {"speed":100.0,"x":21.0284653,"y":-5.6849823,},
+    {"speed":100.0,"x":16.7286072,"y":-6.10679245,},
+  ],
+  "parent": {
+    "name": "Econoline",
+    "path": "folders/Paths/Traffic Vehicles/Econoline.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_econoline_rear_bumper",
+  "tags": [],
+  "resourceType": "GMPath",
+}

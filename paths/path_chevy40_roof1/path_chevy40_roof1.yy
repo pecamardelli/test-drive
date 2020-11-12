@@ -1,0 +1,26 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":107.0974,"y":-80.62846,},
+    {"speed":100.0,"x":120.4115,"y":-104.184738,},
+    {"speed":100.0,"x":128.1772,"y":-113.481804,},
+    {"speed":100.0,"x":137.3822,"y":-119.686829,},
+    {"speed":100.0,"x":152.5161,"y":-127.636627,},
+    {"speed":100.0,"x":172.855,"y":-132.055023,},
+    {"speed":100.0,"x":232.482635,"y":-132.47345,},
+    {"speed":100.0,"x":251.800629,"y":-130.7998,},
+    {"speed":100.0,"x":258.2609,"y":-117.2182,},
+    {"speed":100.0,"x":268.226,"y":-95.64502,},
+    {"speed":100.0,"x":273.90213,"y":-80.89717,},
+  ],
+  "parent": {
+    "name": "Chevrolet Special Deluxe 1940",
+    "path": "folders/Paths/Racecars/Chevrolet Special Deluxe 1940.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_chevy40_roof1",
+  "tags": [],
+  "resourceType": "GMPath",
+}

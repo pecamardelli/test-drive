@@ -1,0 +1,27 @@
+{
+  "kind": 1,
+  "closed": true,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":97.0,"y":0.0,},
+    {"speed":100.0,"x":95.0,"y":8.0,},
+    {"speed":100.0,"x":88.0,"y":15.0,},
+    {"speed":100.0,"x":80.0,"y":16.0,},
+    {"speed":100.0,"x":72.0,"y":15.0,},
+    {"speed":100.0,"x":65.0,"y":8.0,},
+    {"speed":100.0,"x":63.0,"y":0.0,},
+    {"speed":100.0,"x":65.0,"y":-8.0,},
+    {"speed":100.0,"x":72.0,"y":-15.0,},
+    {"speed":100.0,"x":80.0,"y":-16.0,},
+    {"speed":100.0,"x":88.0,"y":-15.0,},
+    {"speed":100.0,"x":95.0,"y":-8.0,},
+  ],
+  "parent": {
+    "name": "Racecars",
+    "path": "folders/Paths/Racecars.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_tyres",
+  "tags": [],
+  "resourceType": "GMPath",
+}

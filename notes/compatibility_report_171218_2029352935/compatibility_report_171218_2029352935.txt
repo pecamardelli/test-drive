@@ -1,0 +1,255 @@
+Converting GML script: ${project_dir}\scripts\script_execute_safe\script_execute_safe.gml
+Converted description /// @description script_execute(scr)/// @param scr
+
+Converting GML script: ${project_dir}\scripts\lerp_direction\lerp_direction.gml
+Converted description /// @description lerp_direction(dir1,dir2,amount)/// @param dir1
+/// @param dir2
+/// @param amount
+
+Converting GML script: ${project_dir}\scripts\draw_text_init\draw_text_init.gml
+Converted description /// @description draw_text_init(font,halign,valign)/// @param font
+/// @param halign
+/// @param valign
+
+Converting GML script: ${project_dir}\scripts\place_get_string\place_get_string.gml
+Converted description /// @description place_get_string()
+
+Converting GML script: ${project_dir}\scripts\time_get_string\time_get_string.gml
+Converted description /// @description time_get_string(frames)/// @param frames
+Converted string - line 7: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\string_fix\string_fix.gml
+Converted description /// @description string_fix(number, places)/// @param number
+/// @param  places
+
+Converting GML script: ${project_dir}\scripts\number_snap\number_snap.gml
+Converted description /// @description number_snap(number,precision)/// @param number
+/// @param precision
+
+Converting GML script: ${project_dir}\scripts\array\array.gml
+Converted description /// @description array(val1,val2,...)/// @param val1
+/// @param val2
+/// @param ...
+
+Converting GML script: ${project_dir}\scripts\cross_product\cross_product.gml
+Converted description /// @description cross_product(array1_xyz,array2_xyz)/// @param array1_xyz
+/// @param array2_xyz
+
+Converting GML script: ${project_dir}\scripts\paths_init\paths_init.gml
+Converted description /// @description paths_init()
+
+Converting GML script: ${project_dir}\scripts\cars_init\cars_init.gml
+Converted description /// @description cars_init()
+
+Converting GML script: ${project_dir}\scripts\car_init\car_init.gml
+Converted description /// @description car_init(modelid,path0,path1,path2,pxlengthfactor,w0,w1,w2,w3)/// @param modelid
+/// @param path0
+/// @param path1
+/// @param path2
+/// @param pxlengthfactor
+/// @param w0
+/// @param w1
+/// @param w2
+/// @param w3
+
+Converting GML script: ${project_dir}\scripts\stage_model_create\stage_model_create.gml
+Converted description /// @description stage_model_create(atlas_bg,atlas_wcells,atlas_hcells,bottomfloor,foundationmin,foundationmax,upperfloortype,deformations_factor,deformations_spread)/// @param atlas_bg
+/// @param atlas_wcells
+/// @param atlas_hcells
+/// @param bottomfloor
+/// @param foundationmin
+/// @param foundationmax
+/// @param upperfloortype
+/// @param deformations_factor
+/// @param deformations_spread
+
+Converting GML script: ${project_dir}\scripts\init_keys\init_keys.gml
+Converted description /// @description init_keys()
+
+Converting GML script: ${project_dir}\scripts\get_keys\get_keys.gml
+Converted description /// @description get_keys()
+Converted string - line 18: 'X' -> "X"
+Converted string - line 19: 'Z' -> "Z"
+
+Converting GML script: ${project_dir}\scripts\csc_player\csc_player.gml
+Converted description /// @description csc_player()
+
+Converting GML script: ${project_dir}\scripts\miscsc_player\miscsc_player.gml
+Converted builtin - line 2: view_xview = x - view_wview*0.5 + lengthdir_x(80,facedir) -> __view_set( e__VW.XView, 0, x - view_wview*0.5 + lengthdir_x(80,facedir) )
+Converted builtin - line 3: view_yview = y - view_hview*0.5 + lengthdir_y(80,facedir) -> __view_set( e__VW.YView, 0, y - view_hview*0.5 + lengthdir_y(80,facedir) )
+Converted builtin - line 4: view_angle -> __view_get( e__VW.Angle, 0 )
+Converted description /// @description miscsc_player()
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_angle = lerp(__view_get( e__VW.Angle, 0 ),-(facedir - 90),0.05) -> __view_set( e__VW.Angle, 0, lerp(__view_get( e__VW.Angle, 0 ),-(facedir - 90),0.05) )
+
+Converting GML script: ${project_dir}\scripts\csc_ai\csc_ai.gml
+Converted description /// @description csc_ai()
+
+Converting GML script: ${project_dir}\scripts\track_get_x\track_get_x.gml
+Converted description /// @description track_get_x(u,w)/// @param u
+/// @param w
+
+Converting GML script: ${project_dir}\scripts\track_get_y\track_get_y.gml
+Converted description /// @description track_get_y(u,w)/// @param u
+/// @param w
+
+Converting GML script: ${project_dir}\scripts\track_get_z\track_get_z.gml
+Converted description /// @description track_get_z(u,w)/// @param u
+/// @param w
+
+Converting GML script: ${project_dir}\scripts\carstate_startline\carstate_startline.gml
+Converted description /// @description facedir = lengthdir_x(5,current_time + x*y)/// @param 5
+/// @param current_time + x*y
+
+Converting GML script: ${project_dir}\scripts\player_add_motion\player_add_motion.gml
+Converted description /// @description player_add_motion(dir,motionadd,capvalue)/// @param dir
+/// @param motionadd
+/// @param capvalue
+
+Converting GML script: ${project_dir}\scripts\player_apply_movement\player_apply_movement.gml
+Converted description /// @description player_apply_movement(direction,distance)/// @param direction
+/// @param distance
+
+Converting GML script: ${project_dir}\scripts\player_controls\player_controls.gml
+Converted description /// @description player_controls()
+
+Converting GML script: ${project_dir}\scripts\draw_racetrack_path\draw_racetrack_path.gml
+Converted description /// @description draw_racetrack_path(path,lx,ty,rx,by)/// @param path
+/// @param lx
+/// @param ty
+/// @param rx
+/// @param by
+
+Converting GML script: ${project_dir}\scripts\draw_racetrack_circle\draw_racetrack_circle.gml
+Converted description /// @description draw_racetrack_circle(path,lx,ty,rx,by,pos,r,color)/// @param path
+/// @param lx
+/// @param ty
+/// @param rx
+/// @param by
+/// @param pos
+/// @param r
+/// @param color
+
+!!! Font font_retro uses a font (16bfZX) not installed on this system - Font has NOT been regenerated
+!!! Font font_futuristic uses a font (AR DESTINE) not installed on this system - Font has NOT been regenerated
+!!! Font font_futuristic_big uses a font (AR DESTINE) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_car\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\obj_car\Step_0.gml
+Converted description /// @description Do stuff
+
+Converting GML script: ${project_dir}\objects\obj_car\Collision_3e2a6330-51fe-422e-af48-67b588abaca4.gml
+Converted description /// @description Hit it
+
+Converting GML script: ${project_dir}\objects\obj_car\Draw_0.gml
+Converted description /// @description Draw
+
+Converting GML script: ${project_dir}\objects\obj_trackcontrol\Create_0.gml
+Converted builtin - line 49: view_xview = n.x - view_wview*0.5 -> __view_set( e__VW.XView, 0, n.x - view_wview*0.5 )
+Converted builtin - line 50: view_yview = n.y - view_hview*0.5 -> __view_set( e__VW.YView, 0, n.y - view_hview*0.5 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 51: view_angle = 90 -> __view_set( e__VW.Angle, 0, 90 )
+Converted description /// @description Debug setup
+Converted builtin - line 49: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 50: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_trackcontrol\Step_2.gml
+Converted builtin - line 2: background_x = 0.5*view_xview -> __background_set( e__BG.X, 0, 0.5*view_xview )
+Converted builtin - line 3: background_y = 0.5*view_yview -> __background_set( e__BG.Y, 0, 0.5*view_yview )
+Converted description /// @description Scroll background
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_trackcontrol\Draw_0.gml
+Converted description /// @description Draw track
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\obj_startcountdown\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\obj_startcountdown\Step_0.gml
+Converted description /// @description State machine
+
+Converting GML script: ${project_dir}\objects\obj_startcountdown\Draw_64.gml
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw stuff
+
+Converting GML script: ${project_dir}\objects\obj_guicontrol\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\obj_guicontrol\Step_0.gml
+Converted description /// @description Placementing
+
+Converting GML script: ${project_dir}\objects\obj_guicontrol\Draw_64.gml
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 16: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 16: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw stuff
+
+Converting GML script: ${project_dir}\objects\obj_guicontrol\Draw_0.gml
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Set projection
+
+Converting GML script: ${project_dir}\objects\obj_skyboxcontrol\Draw_0.gml
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Draw the background
+
+Game speed set to 60
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'background/background_get_width.gml'
+Added compatibility script 'background/draw_background.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'd3d/d3d_draw_wall.gml'
+Added compatibility script 'd3d/d3d_light_define_ambient.gml'
+Added compatibility script 'd3d/d3d_light_define_direction.gml'
+Added compatibility script 'd3d/d3d_light_enable.gml'
+Added compatibility script 'd3d/d3d_model_create.gml'
+Added compatibility script 'd3d/d3d_model_draw.gml'
+Added compatibility script 'd3d/d3d_model_primitive_begin.gml'
+Added compatibility script 'd3d/d3d_model_primitive_end.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_texture.gml'
+Added compatibility script 'd3d/d3d_primitive_begin_texture.gml'
+Added compatibility script 'd3d/d3d_primitive_end.gml'
+Added compatibility script 'd3d/d3d_set_depth.gml'
+Added compatibility script 'd3d/d3d_set_hidden.gml'
+Added compatibility script 'd3d/d3d_set_lighting.gml'
+Added compatibility script 'd3d/d3d_set_projection_ext.gml'
+Added compatibility script 'd3d/d3d_set_projection_ortho.gml'
+Added compatibility script 'd3d/d3d_start.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_x.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_z.gml'
+Added compatibility script 'd3d/d3d_transform_add_scaling.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'd3d/d3d_vertex_normal_texture.gml'
+Added compatibility script 'd3d/__d3d_model_add_vertex.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

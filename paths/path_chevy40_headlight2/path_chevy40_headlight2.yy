@@ -1,0 +1,26 @@
+{
+  "kind": 1,
+  "closed": true,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":388.226,"y":-51.2648239,},
+    {"speed":100.0,"x":388.635132,"y":-63.8426971,},
+    {"speed":100.0,"x":383.0107,"y":-62.8700867,},
+    {"speed":100.0,"x":368.5628,"y":-62.7638435,},
+    {"speed":100.0,"x":354.043579,"y":-61.3226242,},
+    {"speed":100.0,"x":329.9021,"y":-56.4064636,},
+    {"speed":100.0,"x":340.1038,"y":-55.7802124,},
+    {"speed":100.0,"x":347.0813,"y":-54.4512939,},
+    {"speed":100.0,"x":365.7705,"y":-50.9654541,},
+    {"speed":100.0,"x":378.6369,"y":-49.01613,},
+    {"speed":100.0,"x":387.4802,"y":-49.3706055,},
+  ],
+  "parent": {
+    "name": "Chevrolet Special Deluxe 1940",
+    "path": "folders/Paths/Racecars/Chevrolet Special Deluxe 1940.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_chevy40_headlight2",
+  "tags": [],
+  "resourceType": "GMPath",
+}

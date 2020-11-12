@@ -1,0 +1,1 @@
+scr_fade_screen("in",global.fade_duration,false,-1);

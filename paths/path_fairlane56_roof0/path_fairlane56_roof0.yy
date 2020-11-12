@@ -1,0 +1,25 @@
+{
+  "kind": 0,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":119.218086,"y":-72.0,},
+    {"speed":100.0,"x":126.488678,"y":-85.09183,},
+    {"speed":100.0,"x":137.501038,"y":-100.82251,},
+    {"speed":100.0,"x":161.814255,"y":-114.6267,},
+    {"speed":100.0,"x":194.6282,"y":-118.9988,},
+    {"speed":100.0,"x":235.0003,"y":-119.1616,},
+    {"speed":100.0,"x":252.139832,"y":-118.0918,},
+    {"speed":100.0,"x":256.904816,"y":-109.6723,},
+    {"speed":100.0,"x":265.3039,"y":-93.27321,},
+    {"speed":100.0,"x":273.1981,"y":-72.0,},
+  ],
+  "parent": {
+    "name": "Ford Fairlane 1956",
+    "path": "folders/Paths/Racecars/Ford Fairlane 1956.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_fairlane56_roof0",
+  "tags": [],
+  "resourceType": "GMPath",
+}
